@@ -5,7 +5,7 @@ import { render, fireEvent, screen, act } from '@testing-library/react';
 import TodoList from '../components/TodoList';
 import { addTodo } from '../functions/addTodo';
 
-// Mocking the TodoItem component
+// Mocking the TodoItem componen
 jest.mock('../components/TodoItem', () => ({ todo }) => <li>{todo.text}</li>);
 
 // Mocking the fetch function

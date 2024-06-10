@@ -4,7 +4,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from '../components/App';
 
-// Mocking the TodoList component
+// Mocking the TodoList componen
 jest.mock('../components/TodoList', () => () => <div>Mocked TodoList</div>);
 
 test('renders the App component correctly', () => {
